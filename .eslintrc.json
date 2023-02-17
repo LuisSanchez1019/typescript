@@ -1,0 +1,18 @@
+{
+  "extends": ["next/core-web-vitals","airbnb", "plugin:prettier/recommended"],
+  "parse":"@typescrip-eslint/parser",
+  "parserOptions":{
+    "ecmaVersions":"latest",
+    "sourceType ": "module"
+   },
+   "rules":{
+    "max len":["error", 140],
+    "quotes":[2,"single",{"avoidEscape":true }]     
+   }
+} 
+
+  
+
+
+  
+
